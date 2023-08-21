@@ -1,3 +1,8 @@
-const btn= document.getElementById("perra");
+document.addEventListener("DOMContentLoaded", function(){
+    const divSaludo = document.querySelector("div");
 
-btn.addEventListener("click", alert)
+    divSaludo.addEventListener("click", function(){
+        alert("Hola, soy el div");
+
+});
+});
